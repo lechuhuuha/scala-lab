@@ -1,0 +1,4 @@
+-J-Dsbt.boot.directory=.sbt/boot
+-J-Dsbt.ivy.home=.ivy2
+-J-Dsbt.global.base=.sbt
+-J-Dcoursier.cache=.cache/coursier
