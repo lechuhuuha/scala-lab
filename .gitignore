@@ -1,17 +1,40 @@
+# Build artifacts
 target/
+dist/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/project/
+project/metals.sbt
 
-.settings
+# Build tools and caches (local machine)
+.sbt/
+.ivy2/
+.cache/
+.history/
+.bsp/
+.bloop/
+.metals/
+
+# IDE/editor files
+.idea/
+*.iml
+.vscode/
+.run/
+.settings/
 .project
 .classpath
+.scala_dependencies
+/.worksheet/
+.dotty-ide-artifact
+.dotty-ide.json
 
-.idea
-*.iml
+# OS/log/temp
+.DS_Store
+*.class
+*.log
+*~
 
-.metals
-.bloop
-.bsp
-
-.sbt
-.ivy2
-.cache
+# Local secrets/config
 .akka-repo-url

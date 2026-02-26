@@ -1,4 +1,4 @@
--J-Dsbt.boot.directory=.sbt/boot
--J-Dsbt.ivy.home=.ivy2
--J-Dsbt.global.base=.sbt
--J-Dcoursier.cache=.cache/coursier
+-J-Dsbt.boot.directory=/home/scala-lab/.sbt/boot
+-J-Dsbt.ivy.home=/home/scala-lab/.ivy2
+-J-Dsbt.global.base=/home/scala-lab/.sbt
+-J-Dcoursier.cache=/home/scala-lab/.cache/coursier
